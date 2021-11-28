@@ -1,0 +1,836 @@
+CRITICAL - 2021-11-28 00:05:48 --> Call to a member function addInvoiceItems() on null
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 00:09:34 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 00:12:40 --> Call to undefined method App\Models\InvoiceDetailsModel::affected_rows
+#0 /Applications/MAMP/htdocs/ci/app/Models/InvoiceDetailsModel.php(28): CodeIgniter\Model->__call('affected_rows', Array)
+#1 /Applications/MAMP/htdocs/ci/app/Controllers/InvoiceController.php(46): App\Models\InvoiceDetailsModel->addInvoiceItems(Array)
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#3 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#4 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 00:20:29 --> There is no data to insert.
+#0 /Applications/MAMP/htdocs/ci/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /Applications/MAMP/htdocs/ci/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /Applications/MAMP/htdocs/ci/app/Models/InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#3 /Applications/MAMP/htdocs/ci/app/Controllers/InvoiceController.php(46): App\Models\InvoiceDetailsModel->addInvoiceItems(Array)
+#4 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#5 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#6 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 00:40:00 --> Call to a member function library() on null
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 00:40:12 --> Call to undefined method App\Controllers\InvoiceController::library()
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 01:56:39 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/ci/app/Controllers/InvoiceController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 36, Array)
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#3 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 01:56:55 --> Call to undefined method App\Controllers\InvoiceController::library()
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 01:57:15 --> Call to undefined method App\Controllers\InvoiceController::library()
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:00:28 --> Call to undefined method App\Controllers\InvoiceController::library()
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:02:41 --> Call to undefined method App\Controllers\InvoiceController::library()
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:02:51 --> Call to a member function library() on null
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:03:13 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:03:28 --> Call to a member function library() on null
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:03:34 --> Call to a member function library() on null
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:03:54 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/ci/app/Controllers/dompdf/autoload.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:04:42 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/dompdf/autoload.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:04:46 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/dompdf/autoload.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:04:48 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/dompdf/autoload.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:05:02 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /Applications/MAMP/htdocs/ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 02:05:12 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/dompdf/autoload.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:12:24 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/dompdf/autoload.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:12:32 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/dompdf/autoload.inc.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 02:12:38 --> Call to undefined method App\Controllers\InvoiceController::library()
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:12:49 --> Call to a member function library() on null
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:13:35 --> Cannot call constructor
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:13:39 --> Call to a member function library() on null
+#0 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /Applications/MAMP/htdocs/ci/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/ci/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:29:08 --> Call to a member function library() on null
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:30:26 --> Call to a member function library() on null
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 02:30:47 --> A non-numeric value encountered
+#0 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\wamp64\\www\\c...', 40, Array)
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#3 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-28 02:31:08 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 02:31:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(44): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 02:31:09 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:04:51 --> Call to a member function library() on null
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:12:02 --> Class 'App\Libraries\dompdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:19:07 --> A non-numeric value encountered
+#0 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\wamp64\\www\\c...', 43, Array)
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#3 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 04:19:29 --> Class 'Dompdf\Cpdf' not found
+#0 E:\wamp64\www\ci\app\Libraries\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 E:\wamp64\www\ci\app\Libraries\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(53): Dompdf\Dompdf->__construct()
+#3 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#4 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#5 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 04:21:50 --> Class 'Dompdf\Cpdf' not found
+#0 E:\wamp64\www\ci\app\Libraries\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 E:\wamp64\www\ci\app\Libraries\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(53): Dompdf\Dompdf->__construct()
+#3 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#4 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#5 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 04:21:53 --> Class 'Dompdf\Cpdf' not found
+#0 E:\wamp64\www\ci\app\Libraries\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 E:\wamp64\www\ci\app\Libraries\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(53): Dompdf\Dompdf->__construct()
+#3 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#4 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#5 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 04:23:41 --> Class 'Dompdf\Cpdf' not found
+#0 E:\wamp64\www\ci\app\Libraries\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 E:\wamp64\www\ci\app\Libraries\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(53): Dompdf\Dompdf->__construct()
+#3 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#4 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#5 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 04:39:07 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:41:23 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:41:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:41:23 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:42:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:42:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:42:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:42:16 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:42:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:42:16 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:42:30 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:42:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:42:30 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:42:35 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:42:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:42:35 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:42:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:42:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:42:38 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:42:54 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:42:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:42:54 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:43:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:43:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:43:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:43:26 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:43:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:43:26 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:43:48 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:43:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:43:48 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:44:04 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:44:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:44:05 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:44:31 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:44:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:44:31 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:44:36 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:44:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:44:36 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:45:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:45:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:45:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:45:15 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:45:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:45:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:45:43 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:45:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:45:43 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:46:54 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:46:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:46:54 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-28 04:47:49 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-11-28 04:47:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 E:\wamp64\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#2 E:\wamp64\www\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\wamp64\www\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 E:\wamp64\www\ci\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\wamp64\www\ci\app\Models\InvoiceDetailsModel.php(23): CodeIgniter\Model->insert(Array)
+#6 E:\wamp64\www\ci\app\Controllers\InvoiceController.php(49): App\Models\InvoiceDetailsModel->addInvoiceItem(Array)
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#8 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-28 04:47:49 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\wamp64\www\ci\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\wamp64\\www\\c...', 96, Array)
+#1 E:\wamp64\www\ci\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\InvoiceController), true)
+#2 E:\wamp64\www\ci\system\Debug\Exceptions.php(229): include('E:\\wamp64\\www\\c...')
+#3 E:\wamp64\www\ci\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\wamp64\www\ci\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:52:03 --> Class 'App\Libraries\Pdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:52:19 --> Class 'App\Libraries\Pdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:53:00 --> Class 'App\Controllers\Pdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:53:20 --> syntax error, unexpected 'new' (T_NEW), expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\wamp64\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\wamp64\\www\\c...')
+#1 E:\wamp64\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\wamp64\www\ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 E:\wamp64\www\ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 04:53:26 --> syntax error, unexpected 'new' (T_NEW), expecting function (T_FUNCTION) or const (T_CONST)
+#0 E:\wamp64\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\wamp64\\www\\c...')
+#1 E:\wamp64\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\wamp64\www\ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 E:\wamp64\www\ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 04:54:03 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'E:\wamp64\www\ci\app\Controllers/dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:54:38 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'E:\wamp64\www\ci\app\Controllers/dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:54:55 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'E:\wamp64\www\ci\app\Controllers../Libraries/dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:55:19 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci../Libraries/dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:55:32 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ciApp/Libraries/dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:56:40 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/App/Libraries/dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:59:23 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'http://localhost:8888/ci/App/Libraries/dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 04:59:37 --> Call to undefined function App\Controllers\BASEPATH()
+#0 E:\wamp64\www\ci\system\Autoloader\Autoloader.php(264): include_once()
+#1 E:\wamp64\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\wamp64\\www\\c...')
+#2 E:\wamp64\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 E:\wamp64\www\ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 E:\wamp64\www\ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\wamp64\www\ci\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-28 05:00:13 --> Class 'App\Libraries\Pdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 05:00:26 --> Class 'App\Libraries\Pdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(824): App\Controllers\InvoiceController->addInvoice()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 05:01:12 --> Class 'App\Libraries\Pdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 05:01:37 --> Class 'App\Libraries\dompdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 05:21:34 --> Class 'App\Controllers\dompdf' not found
+#0 E:\wamp64\www\ci\system\CodeIgniter.php(801): App\Controllers\InvoiceController->__construct()
+#1 E:\wamp64\www\ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 E:\wamp64\www\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\wamp64\www\ci\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
